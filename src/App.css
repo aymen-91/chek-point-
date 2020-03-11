@@ -1,0 +1,73 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.master-logo {
+  height: 150px;
+  width:150px;
+}
+/*css de la card*/
+.main-card{
+  display: flex;
+  margin-top: 50px;
+}
+.card-container{
+  margin-left: 40px;
+  height:370px;
+  width: 430px;
+  background-color: rgb(18, 65, 100);
+  border-radius: 10px;
+  color: white;
+  padding-left: 10px;
+}
+.card-container p:first-child{
+  font-size: 30px;
+  padding-left: 150px;
+}
+.card-container p:nth-child(4)
+{
+padding-left: 150px;
+}
+.part2{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+}
+
+.userN{
+  font-size: 40px ; 
+  padding-left: 15px !important;
+  
+
+}
+/*css des inputs */
+form{
+  margin-top: 100px;
+  height:100px;
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+  margin-left: 60px;
+
+}
